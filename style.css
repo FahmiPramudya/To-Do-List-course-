@@ -1,0 +1,16 @@
+#list {
+    width: 225px;
+}
+
+#input-form {
+    margin-bottom: 10px;
+}
+
+.item-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-list input:checked ~ span{
+    text-decoration: line-through;
+}
